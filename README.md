@@ -1,87 +1,132 @@
-# tech-job-market-analysis
+# Tech Job Market Salary Analysis
 
-This project analyzes global data science and technology job salary data to identify trends in compensation across experience levels, company sizes, job roles, and geographic locations.
+Data analysis project exploring global salary trends in data science and technology roles using Python and visualization techniques.
 
-The analysis was performed using Python and common data science libraries to explore patterns in the tech job market.
+---
 
-## Tools Used
+## Overview
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+This project analyzes worldwide technology job salary data to identify compensation patterns across experience levels, job roles, company sizes, and geographic locations.
+
+The goal is to uncover insights into how different factors influence salaries in the global tech job market.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Pandas — data cleaning and aggregation  
+- NumPy — numerical operations  
+- Matplotlib — data visualization  
+- Seaborn — statistical visualization  
+- Jupyter Notebook — exploratory data analysis  
+
+---
 
 ## Dataset
 
-Data Science Job Salaries dataset sourced from Kaggle.
+- Source: Kaggle — Data Science Job Salaries Dataset  
+- Contains information such as:
+  - Job title  
+  - Experience level  
+  - Company size  
+  - Company location  
+  - Salary in USD  
 
-The dataset includes information such as:
+Dataset can be downloaded from:  
+https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries
 
-- Job title
-- Experience level
-- Company size
-- Company location
-- Salary in USD
+Place the dataset inside the `data/` directory.
+
+---
+
+## Project Structure
+
+- `data/` → raw dataset  
+- `notebooks/` → analysis notebook  
+- `images/` → generated visualizations  
+- `requirements.txt` → project dependencies  
+- `.gitignore` → ignored files  
+
+---
+
+## Methodology
+
+- Data cleaning and preprocessing using Pandas  
+- Salary normalization and grouping  
+- Aggregation by job role, experience level, and company size  
+- Geographic salary comparison  
+- Visualization of salary distributions and trends  
+
+---
 
 ## Key Questions Explored
 
-- How does salary vary by experience level?
-- Which tech roles have the highest average salaries?
-- How do salaries differ across company sizes?
-- Which countries offer the highest tech salaries?
+- How does salary vary by experience level?  
+- Which tech roles have the highest average salaries?  
+- How do salaries differ across company sizes?  
+- Which countries offer the highest tech compensation?  
 
-## Key Insights
+---
 
-- Senior-level roles consistently earn higher salaries than entry-level roles.
-- Large companies tend to offer higher compensation compared to small and medium-sized companies.
-- Data science and machine learning roles appear frequently among the highest-paying positions.
-- Salary distributions vary significantly by geographic region.
+## Results & Insights
 
-## Visualizations
+- Senior-level roles consistently earn significantly higher salaries than entry-level positions.  
+- Larger companies generally offer higher compensation compared to small and medium-sized firms.  
+- Data science and machine learning roles appear frequently among the highest-paying positions.  
+- Salary distributions vary widely across geographic regions due to economic and market differences.  
+
+---
+
+## 📊 Visualizations
 
 ### Salary by Experience Level
 
-![Salary by Experience](images/salary_experience.png)
+![Salary by Experience](images/experience_salary.png)
+
+---
 
 ### Top Paying Job Roles
 
 ![Top Roles](images/top_roles.png)
 
+---
+
 ### Salary by Company Size
 
-![Company Size](images/company_size.png)
+![Company Size](images/company_size_salary.png)
+
+---
 
 ### Top Countries by Salary
 
 ![Countries](images/countries.png)
 
-## How to Run the Project
+---
 
-1. Clone the repository
+## Run Instructions
 
 ```bash
 git clone https://github.com/Ironclad1738281/tech-job-market-analysis.git
-```
-
-2. Navigate into the project folder
-
-```bash
 cd tech-job-market-analysis
-```
-
-3. Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
+jupyter notebook
+Open:
 
-4. Open the notebook
+`notebooks/analysis.ipynb`
 
-```
-notebooks/analysis.ipynb
-```
+---
+
+## Future Improvements
+
+- Add interactive dashboard (Plotly / Streamlit)  
+- Build salary prediction model  
+- Incorporate additional datasets for deeper market analysis  
+- Perform time-series salary trend analysis  
+
+---
 
 ## Author
 
-Chandunallamothu
+**Naveenchandra Nallamothu**  
+B.S. Computer Science — George Mason University
