@@ -82,7 +82,7 @@ Place the dataset inside the `data/` directory.
 
 ### Salary by Experience Level
 
-![Salary by Experience](images/experience_salary.png)
+![Salary by Experience](images/salary_experience.png)
 
 ---
 
@@ -94,7 +94,7 @@ Place the dataset inside the `data/` directory.
 
 ### Salary by Company Size
 
-![Company Size](images/company_size_salary.png)
+![Company Size](images/company_size.png)
 
 ---
 
