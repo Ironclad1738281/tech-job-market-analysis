@@ -111,6 +111,8 @@ git clone https://github.com/Ironclad1738281/tech-job-market-analysis.git
 cd tech-job-market-analysis
 pip install -r requirements.txt
 jupyter notebook
+```
+
 Open:
 
 `notebooks/analysis.ipynb`
@@ -119,10 +121,10 @@ Open:
 
 ## Future Improvements
 
-- Add interactive dashboard (Plotly / Streamlit)  
-- Build salary prediction model  
-- Incorporate additional datasets for deeper market analysis  
-- Perform time-series salary trend analysis  
+* Add interactive dashboard (Plotly / Streamlit)
+* Build salary prediction model
+* Incorporate additional datasets for deeper market analysis
+* Perform time-series salary trend analysis
 
 ---
 
